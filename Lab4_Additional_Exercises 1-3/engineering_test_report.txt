@@ -1,0 +1,139 @@
+==============================================================================
+FINAL ORGANIZED AND SUMMARIZED TEST DATASET
+==============================================================================
+LAST_NAME: BERNAL | SEED_NUM: 0 | FAVORITE_ARTIST: BTS
+
+1. GENERATED TEST DATA
+------------------------------------------------------------------------------
+ID    Test Source           Category           Value  Unit
+R001  BERNAL_T1             TEMPERATURE        35.84  C
+R002  BERNAL_T1             VOLTAGE             8.73  V
+R003  BERNAL_T1             CURRENT             2.13  A
+R004  BERNAL_T2             VOLTAGE            10.11  V
+R005  BERNAL_T2             CURRENT             2.98  A
+R006  BERNAL_T2             PRESSURE          159.68  kPa
+R007  BERNAL_T3             CURRENT             3.01  A
+R008  BERNAL_T3             PRESSURE          180.80  kPa
+R009  BERNAL_T3             SPEED            2747.70  RPM
+R010  BERNAL_T4             PRESSURE          175.04  kPa
+R011  BERNAL_T4             SPEED             366.80  RPM
+R012  BERNAL_T4             TEMPERATURE        32.96  C
+R013  BERNAL_T5             SPEED            2971.00  RPM
+R014  BERNAL_T5             TEMPERATURE        47.52  C
+R015  BERNAL_T5             VOLTAGE            10.45  V
+R016  BERNAL_T1             TEMPERATURE        35.04  C
+
+2. ORGANIZED TEST DATA (by source, then category)
+------------------------------------------------------------------------------
+BERNAL_T1
+    TEMPERATURE  35.84, 35.04 C
+    VOLTAGE      8.73 V
+    CURRENT      2.13 A
+BERNAL_T2
+    VOLTAGE      10.11 V
+    CURRENT      2.98 A
+    PRESSURE     159.68 kPa
+BERNAL_T3
+    CURRENT      3.01 A
+    PRESSURE     180.80 kPa
+    SPEED        2747.70 RPM
+BERNAL_T4
+    TEMPERATURE  32.96 C
+    PRESSURE     175.04 kPa
+    SPEED        366.80 RPM
+BERNAL_T5
+    TEMPERATURE  47.52 C
+    VOLTAGE      10.45 V
+    SPEED        2971.00 RPM
+
+3. REPEATED / DISTINCT DATA
+------------------------------------------------------------------------------
+Total records           : 16
+Distinct test sources   : 5
+Distinct categories     : 5
+Distinct source/category: 15
+Repeated record         : BERNAL_T1 / TEMPERATURE appears 2x (R001, R016; values 35.84, 35.04)
+Categories with multiple measurements: TEMPERATURE, VOLTAGE, CURRENT, PRESSURE, SPEED
+
+4. NUMERICAL AND CATEGORICAL SUMMARIES
+------------------------------------------------------------------------------
+Numerical (per category):
+Category     N          Min       Max      Mean     Range     StDev  Unit
+TEMPERATURE  4        32.96     47.52     37.84     14.56      5.69  C
+VOLTAGE      3         8.73     10.45      9.76      1.72      0.74  V
+CURRENT      3         2.13      3.01      2.71      0.88      0.41  A
+PRESSURE     3       159.68    180.80    171.84     21.12      8.91  kPa
+SPEED        3       366.80   2971.00   2028.50   2604.20   1178.53  RPM
+
+Categorical (record counts):
+  TEMPERATURE  4   (25%)
+  VOLTAGE      3   (19%)
+  CURRENT      3   (19%)
+  PRESSURE     3   (19%)
+  SPEED        3   (19%)
+  BERNAL_T1             4 records: TEMPERATURE, VOLTAGE, CURRENT
+  BERNAL_T2             3 records: VOLTAGE, CURRENT, PRESSURE
+  BERNAL_T3             3 records: CURRENT, PRESSURE, SPEED
+  BERNAL_T4             3 records: TEMPERATURE, PRESSURE, SPEED
+  BERNAL_T5             3 records: TEMPERATURE, VOLTAGE, SPEED
+
+5. PROCESSED RESULTS (deviation from category mean)
+------------------------------------------------------------------------------
+ID    Test Source           Category          Value       Dev  Status
+R001  BERNAL_T1             TEMPERATURE       35.84     -2.00  NEAR MEAN
+R002  BERNAL_T1             VOLTAGE            8.73     -1.03  NEAR MEAN
+R003  BERNAL_T1             CURRENT            2.13     -0.58  BELOW MEAN
+R004  BERNAL_T2             VOLTAGE           10.11     +0.35  NEAR MEAN
+R005  BERNAL_T2             CURRENT            2.98     +0.27  NEAR MEAN
+R006  BERNAL_T2             PRESSURE         159.68    -12.16  BELOW MEAN
+R007  BERNAL_T3             CURRENT            3.01     +0.30  NEAR MEAN
+R008  BERNAL_T3             PRESSURE         180.80     +8.96  NEAR MEAN
+R009  BERNAL_T3             SPEED           2747.70   +719.20  ABOVE MEAN
+R010  BERNAL_T4             PRESSURE         175.04     +3.20  NEAR MEAN
+R011  BERNAL_T4             SPEED            366.80  -1661.70  BELOW MEAN
+R012  BERNAL_T4             TEMPERATURE       32.96     -4.88  NEAR MEAN
+R013  BERNAL_T5             SPEED           2971.00   +942.50  ABOVE MEAN
+R014  BERNAL_T5             TEMPERATURE       47.52     +9.68  ABOVE MEAN
+R015  BERNAL_T5             VOLTAGE           10.45     +0.69  NEAR MEAN
+R016  BERNAL_T1             TEMPERATURE       35.04     -2.80  NEAR MEAN
+
+6. ORDERED RESULTS
+------------------------------------------------------------------------------
+Categories by number of measurements (then mean, highest first):
+  1. TEMPERATURE  n=4  mean=37.84 C
+  2. SPEED        n=3  mean=2028.50 RPM
+  3. PRESSURE     n=3  mean=171.84 kPa
+  4. VOLTAGE      n=3  mean=9.76 V
+  5. CURRENT      n=3  mean=2.71 A
+Measurements within each category (highest value first):
+  TEMPERATURE:
+          47.52 C   BERNAL_T5 (R014)
+          35.84 C   BERNAL_T1 (R001)
+          35.04 C   BERNAL_T1 (R016)
+          32.96 C   BERNAL_T4 (R012)
+  VOLTAGE:
+          10.45 V   BERNAL_T5 (R015)
+          10.11 V   BERNAL_T2 (R004)
+           8.73 V   BERNAL_T1 (R002)
+  CURRENT:
+           3.01 A   BERNAL_T3 (R007)
+           2.98 A   BERNAL_T2 (R005)
+           2.13 A   BERNAL_T1 (R003)
+  PRESSURE:
+         180.80 kPa BERNAL_T3 (R008)
+         175.04 kPa BERNAL_T4 (R010)
+         159.68 kPa BERNAL_T2 (R006)
+  SPEED:
+        2971.00 RPM BERNAL_T5 (R013)
+        2747.70 RPM BERNAL_T3 (R009)
+         366.80 RPM BERNAL_T4 (R011)
+
+7. FINAL SUMMARY
+------------------------------------------------------------------------------
+Test sources           : 5
+Categories             : 5
+Total records          : 16
+Repeated records       : 1
+Most-measured category : TEMPERATURE
+Most variable category : SPEED (largest spread relative to its range)
+==============================================================================

@@ -1,0 +1,110 @@
+======================================================================
+FINAL CONSOLIDATED TRANSACTION REPORT
+======================================================================
+LAST_NAME: BERNAL | SEED_NUM: 0 | FAVORITE_ARTIST: BTS
+
+1. GENERATED TRANSACTION RECORDS
+----------------------------------------------------------------------
+ID    Customer      Product      Qty  Price     
+T001  BERNAL_C1     NOTEBOOK     4    45        
+T002  BERNAL_C1     PEN          4    12        
+T003  BERNAL_C1     USB          3    350       
+T004  BERNAL_C2     PEN          4    12        
+T005  BERNAL_C2     USB          4    350       
+T006  BERNAL_C2     HEADPHONES   3    1200      
+T007  BERNAL_C3     USB          4    350       
+T008  BERNAL_C3     HEADPHONES   4    1200      
+T009  BERNAL_C3     CALCULATOR   3    500       
+T010  BERNAL_C4     HEADPHONES   4    1200      
+T011  BERNAL_C4     CALCULATOR   4    500       
+T012  BERNAL_C4     NOTEBOOK     3    45        
+T013  BERNAL_C5     CALCULATOR   4    500       
+T014  BERNAL_C5     NOTEBOOK     4    45        
+T015  BERNAL_C5     PEN          3    12        
+T016  BERNAL_C1     NOTEBOOK     4    45        
+
+2. ORGANIZED TRANSACTION DATA (customer x product, qty)
+----------------------------------------------------------------------
+Customer      NOTEBO  PEN     USB     HEADPH  CALCUL  
+BERNAL_C1     8       4       3       -       -       
+BERNAL_C2     -       4       4       3       -       
+BERNAL_C3     -       -       4       4       3       
+BERNAL_C4     3       -       -       4       4       
+BERNAL_C5     4       3       -       -       4       
+
+3. REPEATED / DISTINCT TRANSACTIONS
+----------------------------------------------------------------------
+Distinct customers     : 5
+Distinct products      : 5
+Distinct cust-product  : 15
+Repeated purchase      : BERNAL_C1 bought NOTEBOOK 2x (T001, T016)
+
+4. TRANSACTION VALUES (qty x price)
+----------------------------------------------------------------------
+ID    Customer      Product               Value
+T001  BERNAL_C1     NOTEBOOK         PHP 180.00
+T002  BERNAL_C1     PEN               PHP 48.00
+T003  BERNAL_C1     USB            PHP 1,050.00
+T004  BERNAL_C2     PEN               PHP 48.00
+T005  BERNAL_C2     USB            PHP 1,400.00
+T006  BERNAL_C2     HEADPHONES     PHP 3,600.00
+T007  BERNAL_C3     USB            PHP 1,400.00
+T008  BERNAL_C3     HEADPHONES     PHP 4,800.00
+T009  BERNAL_C3     CALCULATOR     PHP 1,500.00
+T010  BERNAL_C4     HEADPHONES     PHP 4,800.00
+T011  BERNAL_C4     CALCULATOR     PHP 2,000.00
+T012  BERNAL_C4     NOTEBOOK         PHP 135.00
+T013  BERNAL_C5     CALCULATOR     PHP 2,000.00
+T014  BERNAL_C5     NOTEBOOK         PHP 180.00
+T015  BERNAL_C5     PEN               PHP 36.00
+T016  BERNAL_C1     NOTEBOOK         PHP 180.00
+TOTAL                             PHP 23,357.00
+
+5. CUSTOMER SUMMARIES
+----------------------------------------------------------------------
+Name          Txns  Qty        Total Value
+BERNAL_C1     4     15        PHP 1,458.00
+BERNAL_C2     3     11        PHP 5,048.00
+BERNAL_C3     3     11        PHP 7,700.00
+BERNAL_C4     3     11        PHP 6,935.00
+BERNAL_C5     3     11        PHP 2,216.00
+
+6. PRODUCT SUMMARIES
+----------------------------------------------------------------------
+Name          Txns  Qty        Total Value
+CALCULATOR    3     11        PHP 5,500.00
+HEADPHONES    3     11       PHP 13,200.00
+NOTEBOOK      4     15          PHP 675.00
+PEN           3     11          PHP 132.00
+USB           3     11        PHP 3,850.00
+
+7. ORDERED RESULTS (highest value first)
+----------------------------------------------------------------------
+Customers:
+  1. BERNAL_C3         PHP 7,700.00
+  2. BERNAL_C4         PHP 6,935.00
+  3. BERNAL_C2         PHP 5,048.00
+  4. BERNAL_C5         PHP 2,216.00
+  5. BERNAL_C1         PHP 1,458.00
+Products:
+  1. HEADPHONES       PHP 13,200.00
+  2. CALCULATOR        PHP 5,500.00
+  3. USB               PHP 3,850.00
+  4. NOTEBOOK            PHP 675.00
+  5. PEN                 PHP 132.00
+Top 5 transactions:
+  1. T008 BERNAL_C3 - HEADPHONES     PHP 4,800.00
+  2. T010 BERNAL_C4 - HEADPHONES     PHP 4,800.00
+  3. T006 BERNAL_C2 - HEADPHONES     PHP 3,600.00
+  4. T011 BERNAL_C4 - CALCULATOR     PHP 2,000.00
+  5. T013 BERNAL_C5 - CALCULATOR     PHP 2,000.00
+
+8. OVERALL TRANSACTION SUMMARY
+----------------------------------------------------------------------
+Total transactions : 16
+Total quantity     : 59
+Total value        : PHP 23,357.00
+Average per txn    : PHP 1,459.81
+Top customer       : BERNAL_C3 (PHP 7,700.00)
+Top product        : HEADPHONES (PHP 13,200.00)
+======================================================================

@@ -1,0 +1,104 @@
+================================================================
+FINAL STUDENT PERFORMANCE REPORT
+================================================================
+LAST_NAME: BERNAL | SEED_NUM: 0 | FAVORITE_ARTIST: BTS
+
+1. GENERATED PERFORMANCE RECORDS
+----------------------------------------------------------------
+Student       Subject       Score   
+BERNAL_01     PROGRAMMING   45      
+BERNAL_01     MATHEMATICS   70      
+BERNAL_01     ELECTRONICS   76      
+BERNAL_01     PHYSICS       66      
+BERNAL_01     ENGLISH       91      
+BERNAL_02     PROGRAMMING   84      
+BERNAL_02     MATHEMATICS   57      
+BERNAL_02     ELECTRONICS   100     
+BERNAL_02     PHYSICS       44      
+BERNAL_02     ENGLISH       78      
+BERNAL_03     PROGRAMMING   48      
+BERNAL_03     MATHEMATICS   52      
+BERNAL_03     ELECTRONICS   69      
+BERNAL_03     PHYSICS       69      
+BERNAL_03     ENGLISH       73      
+BERNAL_04     PROGRAMMING   60      
+BERNAL_04     MATHEMATICS   78      
+BERNAL_04     ELECTRONICS   81      
+BERNAL_04     PHYSICS       81      
+BERNAL_04     ENGLISH       99      
+BERNAL_05     PROGRAMMING   MISSING 
+BERNAL_05     MATHEMATICS   72      
+BERNAL_05     ELECTRONICS   47      
+BERNAL_05     PHYSICS       49      
+BERNAL_05     ENGLISH       93      
+BERNAL_01     PROGRAMMING   45      
+
+2. ORGANIZED STUDENT / SUBJECT DATA
+----------------------------------------------------------------
+Student       PROGRA  MATHEM  ELECTR  PHYSIC  ENGLIS  
+BERNAL_01     45      70      76      66      91      
+BERNAL_02     84      57      100     44      78      
+BERNAL_03     48      52      69      69      73      
+BERNAL_04     60      78      81      81      99      
+BERNAL_05     -       72      47      49      93      
+
+3. REPEATED / INCOMPLETE RECORDS
+----------------------------------------------------------------
+Repeated  : BERNAL_01 - PROGRAMMING (45)
+Incomplete: BERNAL_05 - PROGRAMMING (no score)
+
+4. PERFORMANCE CATEGORIES (valid records)
+----------------------------------------------------------------
+BERNAL_01     PROGRAMMING   45    Needs Improvement
+BERNAL_01     MATHEMATICS   70    Fair
+BERNAL_01     ELECTRONICS   76    Satisfactory
+BERNAL_01     PHYSICS       66    Fair
+BERNAL_01     ENGLISH       91    Outstanding
+BERNAL_02     PROGRAMMING   84    Very Good
+BERNAL_02     MATHEMATICS   57    Needs Improvement
+BERNAL_02     ELECTRONICS   100   Outstanding
+BERNAL_02     PHYSICS       44    Needs Improvement
+BERNAL_02     ENGLISH       78    Satisfactory
+BERNAL_03     PROGRAMMING   48    Needs Improvement
+BERNAL_03     MATHEMATICS   52    Needs Improvement
+BERNAL_03     ELECTRONICS   69    Fair
+BERNAL_03     PHYSICS       69    Fair
+BERNAL_03     ENGLISH       73    Fair
+BERNAL_04     PROGRAMMING   60    Fair
+BERNAL_04     MATHEMATICS   78    Satisfactory
+BERNAL_04     ELECTRONICS   81    Very Good
+BERNAL_04     PHYSICS       81    Very Good
+BERNAL_04     ENGLISH       99    Outstanding
+BERNAL_05     MATHEMATICS   72    Fair
+BERNAL_05     ELECTRONICS   47    Needs Improvement
+BERNAL_05     PHYSICS       49    Needs Improvement
+BERNAL_05     ENGLISH       93    Outstanding
+
+5. SUMMARIES / 6. ORDERED RESULTS
+----------------------------------------------------------------
+Students ranked by average:
+Rank  Student       Avg     High  Low   Category
+1     BERNAL_04     79.80   99    60    Satisfactory
+2     BERNAL_02     72.60   100   44    Fair
+3     BERNAL_01     69.60   91    45    Fair
+4     BERNAL_05     65.25   93    47    Fair
+5     BERNAL_03     62.20   73    48    Fair
+
+Subjects ranked by average:
+Rank  Subject       Avg     High  Low   
+1     ENGLISH       86.80   99    73    
+2     ELECTRONICS   74.60   100   47    
+3     MATHEMATICS   65.80   78    52    
+4     PHYSICS       61.80   81    44    
+5     PROGRAMMING   59.25   84    45    
+
+7. CONSOLIDATED SUMMARY
+----------------------------------------------------------------
+Total records generated : 26
+Valid records           : 24
+Repeated records        : 1
+Incomplete records      : 1
+Top student             : BERNAL_04 (79.80)
+Strongest subject       : ENGLISH (86.80)
+Weakest subject         : PROGRAMMING (59.25)
+================================================================
